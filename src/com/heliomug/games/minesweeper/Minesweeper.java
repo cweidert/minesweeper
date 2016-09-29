@@ -42,6 +42,10 @@ import javax.swing.Timer;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+/**
+ * This is the main class for the whole game.  
+ * This is a fake comment just to test out git check ins, etc.  
+ */
 public class Minesweeper extends JFrame {
 	// color constants
 	private static final int DARK = 64;
