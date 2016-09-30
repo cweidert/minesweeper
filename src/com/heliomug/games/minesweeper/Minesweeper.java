@@ -70,7 +70,11 @@ public class Minesweeper extends JFrame {
 		new Color(MEDIUM, MEDIUM, MEDIUM),
 		new Color(0, 0, 0)
 	};
+
+	// This is an array of pixel sizes for each cell on a side.  
 	private static final int[] CELL_SIZES = {10, 15, 20, 25, 30, 35, 40};
+
+	// This is the default selection from the above.  
 	private static final int DEFAULT_SIZE = 20;
 	private static final Object[][] CONFIGS = {{"Easy", 9, 9, 10}, {"Medium", 16, 16, 40}, {"Hard", 30, 16, 99}};
 	private static final int DEFAULT_CONFIG = 1;
