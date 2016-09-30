@@ -57,6 +57,8 @@ public class Minesweeper extends JFrame {
 	private static final int DURING_GAME = 1;
 	private static final int AFTER_GAME = 2;
 	
+	// This is a set of colors to use for the game.  
+	// They are the colors for the cells of varying mine counts.  
 	private static final Color[] COLORS = {
 		new Color(192, 192, 192), 
 		new Color(MEDIUM, MEDIUM, BRIGHT),
